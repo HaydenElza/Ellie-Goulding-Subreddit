@@ -1,4 +1,4 @@
-# Ellie-Goulding-Subreddit
+# Ellie Goulding Subreddit
 Stylesheet and images for [/r/EllieGoulding](http://www.reddit.com/r/elliegoulding/)
 
 ### Images
