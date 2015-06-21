@@ -1,5 +1,5 @@
 # Ellie-Goulding-Subreddit
-Stylesheet and images for /r/EllieGoulding
+Stylesheet and images for [/r/EllieGoulding](http://www.reddit.com/r/elliegoulding/)
 
 ### Images
 | Name | Preview |
