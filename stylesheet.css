@@ -897,6 +897,12 @@ pre {
 	height: 16px;
 }
 
+.flair-sheets {
+	background-position: 0 -50px;
+	width: 107px;
+	height: 20px;
+}
+
 /* Fixes for reddit beta users */
 .beta-hint {
 	position: relative;
