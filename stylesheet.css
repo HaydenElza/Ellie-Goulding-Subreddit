@@ -839,7 +839,7 @@ button:hover {
 }
 
 /* Code Block */
-pre {
+pre, p code {
 	background: #2c2c2c !important;
 	border: 1px solid gray !important;
 	font-family: "Andale Mono","Lucida Console",Monaco,monospace;
