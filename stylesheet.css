@@ -477,7 +477,9 @@ div.titlebox .users-online span.number:after {
 }
 
 h1,
-h2 {
+h2,
+.wiki-page-content .md h1,
+.wiki-page-content .md h2 {
   color: #fff;
 }
 
@@ -1002,4 +1004,12 @@ html.res-commentBoxes .comment .comment .comment .comment .comment .comment .com
 html.res span.score {
 	color: #888;
 	font-weight: normal;
+}
+
+/* Wiki */
+em {
+	color: #fff;
+}
+a.author {
+	color: #5bc5f2;
 }
