@@ -1025,3 +1025,21 @@ a {
 .wiki-page .wikititle {
   display: none;
 }
+
+/* Promoted Links */
+#siteTable_organic {
+  background: transparent url(%%rgba%%) repeat !important;
+  border: none;
+}
+.link.promotedlink.promoted {
+  background: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#siteTable_organic .help-hoverable {
+  right: 19px;
+  color: #5bc5f2;
+}
+#siteTable_organic .sponsored-tagline {
+  right: 88px;
+}
