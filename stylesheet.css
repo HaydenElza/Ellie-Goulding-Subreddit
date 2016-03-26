@@ -534,10 +534,13 @@ h2 a {
   background: transparent;
 }
 
+.nsfw-stamp {
+  color: #dc1ca1;
+}
+
 .nsfw-stamp acronym {
   color: #dc1ca1;
   border: none!important;
-  background: #000;
 }
 
 .nextprev a {
