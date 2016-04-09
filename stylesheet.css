@@ -1053,3 +1053,38 @@ a {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+/* Tickets */
+a[href^="#forsale"]:before,
+a[href^="#sold"]:before {
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 4px;
+}
+a[href^="#forsale"],
+a[href^="#sold"] {
+  margin-top: 4px !important;
+}
+a[href^="#forsale"]:before {
+  content: "FOR SALE";
+  color: rgb(0,255,50);
+}
+a[href^="#sold"]:before {
+  content: "SOLD";
+  color: rgb(255,0,0);
+}
+
+/* Sticky Post */
+.stickied .entry {
+  border: 1px dashed gray;
+  margin-left: 0;
+  padding: 10px;
+}
+body >.content .stickied .midcol {
+  display: none;
+  width: 0 !important;
+  margin: 0;
+}
+.stickied .entry .expando-button {
+  display: none;
+}
