@@ -1056,13 +1056,15 @@ a {
 
 /* Tickets */
 a[href^="#forsale"]:before,
-a[href^="#sold"]:before {
+a[href^="#sold"]:before,
+a[href^="#request"]:before {
   border: 1px solid;
   padding: 4px;
   border-radius: 4px;
 }
 a[href^="#forsale"],
-a[href^="#sold"] {
+a[href^="#sold"],
+a[href^="#request"] {
   margin-top: 4px !important;
 }
 a[href^="#forsale"]:before {
@@ -1072,6 +1074,10 @@ a[href^="#forsale"]:before {
 a[href^="#sold"]:before {
   content: "SOLD";
   color: rgb(255,0,0);
+}
+a[href^="#request"]:before {
+  content: "Request";
+  color: rgb(190, 90, 245);
 }
 
 /* Sticky Post */
